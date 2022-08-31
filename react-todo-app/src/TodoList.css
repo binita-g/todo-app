@@ -24,12 +24,10 @@ h1 {
 
 .todoList .inputField #addButton:hover {
     background-color: #bb5ef8;
-    border: 2px solid #ffffff;
     cursor: pointer;
 }
 
 .todoList .inputField {
-    list-style: none;
     padding-right: 0px;
 } 
 
