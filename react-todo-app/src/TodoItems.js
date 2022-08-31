@@ -10,6 +10,7 @@ class TodoItems extends Component {
     var todoEntries = this.props.entries;
     var listItems = todoEntries.map(this.createTasks);
  
+    // Render each list item in a list.
     return (
       <ul className="taskList">
           {listItems}

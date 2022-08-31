@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+}
+
+.todoList .inputField input {
+    padding: 10px;
+    border: 2px solid #af36ff;
+    border-radius: 4px;
+    width: 250px;
+    font-family: 'Poppins';
+    font-size: 16px;
+}
+
+.todoList .inputField #addButton {
+    padding: 11px 20px 11px 20px;
+    margin: 15px 0px 15px 15px;
+    background-color: #af36ff;
+    border-style: none;
+    border-radius: 4px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.todoList .inputField #addButton:hover {
+    background-color: #bb5ef8;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+}
+
+.todoList .inputField {
+    list-style: none;
+    padding-right: 0px;
+} 
+
+.todoList .taskList li {
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    list-style: none;
+}
+
+ul.taskList {
+    padding: 0px;
+}
